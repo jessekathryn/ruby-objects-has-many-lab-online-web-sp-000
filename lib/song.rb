@@ -22,4 +22,6 @@ class Song
        self.name
       else
        nil
+      end
+    end
 end
