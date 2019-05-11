@@ -7,7 +7,7 @@ class Author
     @name = name
   end 
 
-  def add_(post)
+  def add_post(post)
     post.arthor = self
   end
   
@@ -20,8 +20,8 @@ class Author
     post.arthor = self
   end
   
-  def self.song_count
-    Song.all.count
+  def self.post_count
+    Post.all.count
   end
   end
 end
