@@ -8,12 +8,12 @@ class Post
       @@all
     end
  
-    def initialize(name)
-      @name = name
+    def initialize(title)
+      @title = title
       @@all << self
     end
       
-    def add_author(name)
-      self.name = @post
+    def add_author(title)
+      self.title = @post
     end
 end
