@@ -8,8 +8,8 @@ class Song
       @@all
     end
  
-    def initialize(name)
-      @name = name
+    def initialize(title)
+      @title = title
       @@all << self
     end
       
