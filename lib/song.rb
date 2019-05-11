@@ -8,12 +8,12 @@ class Song
       @@all
     end
  
-    def initialize(title)
-      @title = title
+    def initialize(name)
+      @name = name
       @@all << self
     end
       
-    def add_song(title)
-      self.title = @title
+    def add_song(name)
+      self.name = @name
   end
 end
