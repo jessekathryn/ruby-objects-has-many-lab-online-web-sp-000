@@ -15,7 +15,7 @@ class Author
     Post.all.select {|post| post.author == self} 
   end
   
-  def add_post_by_title(name)
+  def add_post_by_title(post)
     post = Post.new(name)
     post.author = self
   end
