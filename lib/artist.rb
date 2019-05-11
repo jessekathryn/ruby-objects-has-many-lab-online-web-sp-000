@@ -16,6 +16,6 @@ class Artist
   end
   
   def add_song_by_name(name)
-    
+    Song.all.select {|song| song.name}
 end
 end
