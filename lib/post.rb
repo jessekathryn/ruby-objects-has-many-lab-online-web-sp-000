@@ -17,7 +17,7 @@ class Post
       self.title = @post
     end
     
-    def post_name
+    def author_name
       if @author
         author.name
       end
