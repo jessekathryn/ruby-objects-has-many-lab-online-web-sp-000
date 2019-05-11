@@ -19,7 +19,7 @@ class Post
     
     def post_name
       if @author
-        artist.name
+        author.name
       end
     end
 end
