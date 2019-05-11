@@ -15,5 +15,5 @@ class Post
       
     def add_arthor(name)
       self.name = @post
-  end
+    end
 end
