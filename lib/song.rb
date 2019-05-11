@@ -21,7 +21,7 @@ class Song
       if artist.name = artist.name
         artist.name
       else
-       nil
+        nil
       end
     end
 end
