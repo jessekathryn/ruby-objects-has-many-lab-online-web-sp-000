@@ -13,7 +13,7 @@ class Post
       @@all << self
     end
       
-    def add_arthor(name)
+    def add_author(name)
       self.name = @post
     end
 end
