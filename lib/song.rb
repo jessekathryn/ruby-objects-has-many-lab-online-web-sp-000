@@ -14,6 +14,6 @@ class Song
     end
       
     def add_song(title)
-      self.title = @
+      self.title = @title
   end
 end
