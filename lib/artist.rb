@@ -18,4 +18,6 @@ class Artist
   def add_song_by_name(name)
     Song.all.select {|song| song.name}
 end
+  
+  def song_count()
 end
