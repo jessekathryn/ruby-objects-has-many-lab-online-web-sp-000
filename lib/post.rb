@@ -16,4 +16,10 @@ class Post
     def add_author(title)
       self.title = @post
     end
+    
+    def post_name
+      if @author
+        artist.name
+      end
+    end
 end
